@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.container{
+  margin-left: 1px;
+  border-bottom: 1px solid #c9c9c9;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-header{
+  background-color: rgb(252, 252, 252);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-header h8{
+  color: rgb(151, 151, 151);
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.int{
+  color: rgb(109, 109, 255);
+  font-size: 40px;
+}
+span{
+  color: rgb(151, 151, 151);
+}
+.price{
+  margin-right: 20px;
+  color: rgb(0, 150, 100);
+}
+.lection{
+  margin-left: 3px;
+}
+.btn{
+  margin-top: 10px;
+}
+.calculate{
+  margin: 20px;
+}
+.calculate{
+  color: rgb(151, 151, 151);
+}
+.total{
+  margin: 3px;
+  color: black;
+  font-size: 20px;
+  
+}
+.total span{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:rgb(114, 175, 0);
+  text-align: right;
+  background-color: blue;
+  justify-content: flex-end;
 }
-
-.App-link {
-  color: #61dafb;
+.total2{
+  color:rgb(114, 175, 0);
+  margin-top: -50px;
+  font-size: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  background-color: rgb(114, 175, 0);
+  color: rgb(252, 252, 252);
+  margin: 20px;
+  font-size: 20px;
 }
